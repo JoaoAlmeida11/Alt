@@ -7,3 +7,6 @@ function App() {
 }
 
 export default App;
+
+//** */ http://alt.js.org/guide/container-components/
+//** */ connectToStores
