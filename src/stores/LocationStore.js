@@ -1,5 +1,6 @@
-var alt = require('../alt');
-var LocationActions = require('../actions/LocationActions');
+import alt from '../alt';
+import LocationActions from '../actions/LocationActions';
+import FavoritesStore from '../stores/FavoritesStore';
 
 // Stores automatically emit a change event when an action is dispatched through the store and the action handler ends. In order to suppress the change event you can return false from the action handler.
 class LocationStore {
@@ -65,4 +66,4 @@ class LocationStore {
   }
 }
 
-module.exports = alt.createStore(LocationStore, 'LocationStore');
+export default alt.createStore(LocationStore, 'LocationStore');

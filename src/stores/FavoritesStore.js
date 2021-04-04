@@ -15,4 +15,4 @@ class FavoritesStore {
   }
 }
 
-module.exports = alt.createStore(FavoritesStore, 'FavoritesStore');
+export default alt.createStore(FavoritesStore, 'FavoritesStore');

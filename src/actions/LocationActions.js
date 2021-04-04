@@ -1,4 +1,5 @@
-var alt = require('../alt');
+import alt from '../alt';
+import LocationSource from '../sources/LocationSource';
 
 class LocationActions {
   // can be construtor and prototypes
@@ -33,4 +34,4 @@ class LocationActions {
   }
 }
 
-module.exports = alt.createActions(LocationActions);
+export default alt.createActions(LocationActions);

@@ -17,7 +17,7 @@ var mockData = [
   { id: 12, name: 'San Francisco' },
 ];
 
-var LocationSource = {
+const LocationSource = {
   fetch: function () {
     // returning a Promise because that is what fetch does.
     return new Promise(function (resolve, reject) {
@@ -30,3 +30,4 @@ var LocationSource = {
     });
   },
 };
+export default LocationSource;
